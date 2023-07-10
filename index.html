@@ -3,83 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mostafa's Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Mostafa Taha</title>
 </head>
 <body>
-    <table cellspacing="20">
-        <td>
-            <img src="images/1659080627819-modified.png" width="300" height="300"alt="Angela Yu profile picture">
-        </td>
-        <td>
-            <h1>Mostafa Abdelfattah Taha</h1>
-            <p><em><strong>Project Engineer</strong></em></p>
-            <p>I am a project enginee who is passionate about web designing and front-end developing</p>
-        </td>
-    </table>
-    <hr>
-    <h3><strong>Courses</strong></h3>
-    <ul>
-        <li>The Complete Web App Development Bootcamp</li>
-        <li>ALX Software Engineering</li>
-    </ul>
-    <hr>
-    <h3><strong>Education</strong></h3>
-    <ul>
-        <li>BC.s in Civil Engineering at The German University in Cairo (GUC)</li>
-        <li>ALX Software Engineering</li>
-        <li>Mckinsey&Company Forward Program</li>
-        <li>Agile Project Management</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2022-Present</td>
-                <td>Project Egineer</td>
-            </tr>
-            <tr>
-                <td>2022-Present</td>
-                <td>UI/UX fitness application at Udacity</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-        <table>
-            <tr>
-                <td>HTML</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Web Development</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Project MAnagement</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>UI/UX</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Photography</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-        </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1><em>I'm Mostafa</em></h1>
+        <h2>a web <span class="pro">pro</span>grammer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+        <div class="middle-container">
+            <div class="profile">
+                <img class="profile-pic" src="images/1659080627819-modified.png" alt="Mostafa Profile Pic">
+                <h2>Hello.</h2>
+                <p class="intro">I am a project engineer who is passionate about web designing and front-end developing.</p>
+            </div>
+            <hr>
+            <div class="skills">
+            <h2 class="my-skills-text">My Skills.</h2>
+            <div class="skill-row">
+                <img class="design-img" src="images/design.png" alt="">
+                <img class="codes-img" src="images/website-codes.png" alt="">
+                <h3>Design & Develpment</h3>
+                <p class="code-skill-description">I satrted learning to code when I was 17 years old because I wanted to make my own web designs. Over time, I have gained some experience in designing and love implementing them to real life.</p>
+            </div>
+            <div class="skill-row">
+                <img class="training-img" src="images/strong.png" alt="">
+                <h3 class="training-skill-text">Hot Training Challenge</h3>
+                <p class="training-skill-description">But my best skill is actually in working-out. I love challenging and going beyond the limit. Weightlifting and CrossFit are my favourites.</p>
+            </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>If you love going beyond the limit as much as I do.</h3>
+                <p class="contact-message">Loving to go beyond limits? Let's talk, code and challenge ourselves!</p>
+                <a class="btn" href="mailto:mostafa.tjr@gmial.com">CONTACT ME</a>
+            </div>
+        </div>
+
+      <div class="bottom-container">
+        <a href="https://www.linkedin.com/in/mostafa-taha-20213a115" class="footer-link">Linkedin</a>
+        <a href="https://github.com/mostafataha96" class="footer-link">Github</a>
+        <p class="copyright">© 2023 Mostafa Taha</p>
+      </div>
 </body>
 </html>
